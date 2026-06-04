@@ -41,3 +41,6 @@ This project features an interactive Excel dashboard designed to analyze retail 
 2.  Open in Microsoft Excel (2016 or later recommended).
 3.  Use the **Slicers** on the right/top to filter by Region or Category.
 4.  Adjust the **Timeline** to view specific performance windows between 2014-2017.
+
+---  
+![Dashboard Screenshot](superstore.png)
