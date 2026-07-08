@@ -88,7 +88,7 @@ These slicers dynamically update all charts and KPI cards.
 Superstore-Sales-Dashboard/
 │── Superstore_Sales_Performance_Dashboard.xlsx
 │── dashboard.png
-│── Sample-Superstore.xlsx
+│── Sample-Superstore.csv
 │── README.md
 ```
 
@@ -96,7 +96,7 @@ Superstore-Sales-Dashboard/
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](Dashboard.png)
 
 ---
 
