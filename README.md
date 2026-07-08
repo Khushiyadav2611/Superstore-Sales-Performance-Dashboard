@@ -1,46 +1,140 @@
-# Superstore Sales Performance Dashboard 📊
+# 📊 Superstore Sales Performance Dashboard (2014–2017)
 
-## 📝 Project Overview
-This project features an interactive Excel dashboard designed to analyze retail performance data from **2014 to 2017**. By transforming raw transactional data into visual insights, the dashboard tracks profitability, sales growth, and regional performance to support data-driven business decisions.
+## 📌 Project Overview
 
----
-
-## 🛠️ Technical Features
-
-### **Data Analysis**
-* **Pivot Tables & Advanced Formulas:** Leveraged to calculate core KPIs, including:
-    * **Grand Total Profit:** 286,397
-    * **Total Sales Volume:** 2.29M
-* **Data Cleaning:** Processed raw transactional records for accuracy and consistency.
-
-### **Interactive UI**
-* **Dynamic Filtering:** Implemented **Slicers** (Segment, Category, Region) to allow users to drill down into specific data points.
-* **Temporal Control:** Integrated a **Timeline** (Order Date) for easy year-over-year or month-over-month comparisons.
-
-### **Data Visualization**
-* **Line Charts:** Used for time-series trend analysis.
-* **Donut & Pie Charts:** Leveraged for categorical and regional distribution.
-* **Bar Charts:** Utilized for ranking top-performing products and sub-categories.
+This project presents an interactive Excel dashboard built using the Superstore Sales dataset. The dashboard analyzes sales, profit, customer segments, product categories, and regional performance to provide actionable business insights. It enables users to explore data dynamically through interactive filters and KPIs.
 
 ---
 
-## 📈 Key Insights
+## 🎯 Objective
 
-| Metric | Insight |
-| :--- | :--- |
-| **Growth Trend** | Sales show a consistent upward trajectory, peaking in 2017 at over **483,000**. |
-| **Regional Dominance** | The **West** region leads with **32%** of total sales, followed by the East. |
-| **Customer Segments** | The **Consumer** segment is the primary driver, generating nearly **800,000** in sales. |
-| **Top Product** | The *Canon imageCLASS 2200 Advanced Copier* is the highest-selling individual item. |
-| **Profitability** | Maintained an average profit margin of approximately **12%** across all categories. |
+To analyze retail sales data and develop an interactive Excel dashboard that helps stakeholders monitor business performance, identify trends, and support data-driven decision-making.
 
 ---
 
-## 🚀 How to Use
-1.  Download the `.xlsx` file from this repository.
-2.  Open in Microsoft Excel (2016 or later recommended).
-3.  Use the **Slicers** on the right/top to filter by Region or Category.
-4.  Adjust the **Timeline** to view specific performance windows between 2014-2017.
+## 🛠️ Tools & Technologies
 
----  
-![Dashboard Screenshot](superstore.png)
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Slicers
+- Timeline
+- Data Cleaning
+- KPI Cards
+- Data Visualization
+
+---
+
+## 📊 Dashboard KPIs
+
+- 💰 Total Sales
+- 💵 Total Profit
+- 📈 Average Profit Margin
+
+---
+
+## 📉 Dashboard Visualizations
+
+- Monthly Sales Trend
+- Regional Sales Performance
+- Sales by Category & Sub-Category
+- Sales & Profit by Customer Segment
+- Top 10 Products by Sales
+
+---
+
+## 🎛️ Interactive Filters
+
+The dashboard includes interactive filters for:
+
+- Category
+- Region
+- Segment
+- Year
+
+These slicers dynamically update all charts and KPI cards.
+
+---
+
+## 📌 Business Insights
+
+- West region recorded the highest sales among all regions.
+- Consumer segment contributed the largest share of total sales.
+- Technology emerged as the highest-performing product category.
+- Canon imageCLASS 2200 Advanced Copier was the highest-selling product.
+- Sales showed consistent growth during the analyzed period.
+
+---
+
+## ▶️ How to Use
+
+1. Download or clone this repository.
+2. Open **Superstore_Sales_Performance_Dashboard.xlsx** using Microsoft Excel (Excel 2019, Excel 2021, Excel 2024, or Microsoft 365).
+3. Click **Enable Editing** if prompted.
+4. Open the **Dashboard** worksheet.
+5. Use the slicers to filter the dashboard by:
+   - Category
+   - Region
+   - Segment
+   - Year
+6. The KPI cards and charts will update automatically based on the selected filters.
+7. Click the **Clear Filter** icon on any slicer to reset the dashboard.
+
+---
+
+## 📂 Project Structure
+
+```
+Superstore-Sales-Dashboard/
+│── Superstore_Sales_Performance_Dashboard.xlsx
+│── dashboard.png
+│── Sample-Superstore.xlsx
+│── README.md
+```
+
+---
+
+## 🖼️ Dashboard Preview
+
+![Dashboard Preview](dashboard.png)
+
+---
+
+## 🚀 Skills Demonstrated
+
+- Data Cleaning
+- Data Analysis
+- Business Intelligence
+- Dashboard Design
+- KPI Reporting
+- Data Visualization
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Slicers & Timeline
+- Business Insights Generation
+
+---
+
+## 🚀 Future Improvements
+
+- Integrate Power Query for automated data preparation.
+- Add KPIs such as Total Orders and Average Order Value.
+- Recreate the dashboard in Power BI for enhanced visualization.
+- Connect to a live database for automatic data refresh.
+
+---
+
+## 📚 Dataset
+
+**Source:** Superstore Sales Dataset (Kaggle)
+
+---
+
+## 👩‍💻 Author
+
+**Khushi Yadav**
+
+Aspiring Data Analyst
+
+**Skills:** Excel | SQL | Python | Power BI
